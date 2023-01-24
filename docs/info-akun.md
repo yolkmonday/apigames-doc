@@ -27,7 +27,7 @@ Berikut adalah parameter yang di harapkan
 | Parameter   | Deskripsi                                                                                        | Tipe Data | Wajib |
 | ----------- | ------------------------------------------------------------------------------------------------ | --------- | ----- |
 | merchant_id | Merchant ID Anda [Lihat Pengaturan Secret Key](https://member.apigames.id/pengaturan/secret-key) | String    | Ya    |
-| signature  |    Signature Cek akun  dengan formula **md5([MERCHANT_ID]:[SECRET_KEY]**)                               | String    | Ya    |
+| signature  |    Signature Cek akun  dengan formula **md5(MERCHANT_ID:SECRET_KEY**)                               | String    | Ya    |
 
 
 ### Contoh
