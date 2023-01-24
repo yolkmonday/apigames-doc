@@ -9,7 +9,7 @@ Untuk melakukan pengecekan informasi akun apigames kamu
 ## Endpoint
 
 ```bash
-https://v1.apigames.id/merchant/[merchant_id]?signature=[singature]
+https://v1.apigames.id/merchant/[merchant_id]?signature=[signature]
 ```
 
 ## HTTP Method
@@ -27,7 +27,8 @@ Berikut adalah parameter yang di harapkan
 | Parameter   | Deskripsi                                                                                        | Tipe Data | Wajib |
 | ----------- | ------------------------------------------------------------------------------------------------ | --------- | ----- |
 | merchant_id | Merchant ID Anda [Lihat Pengaturan Secret Key](https://member.apigames.id/pengaturan/secret-key) | String    | Ya    |
-| signature  |    Signature Cek akun  dengan formula **md5(merchant_id+secret_key**)                               | String    | Ya    |
+| signature  |    Signature Cek akun  dengan formula **md5([MERCHANT_ID]:[SECRET_KEY]**)                               | String    | Ya    |
+
 
 ### Contoh
 
