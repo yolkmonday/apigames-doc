@@ -35,7 +35,7 @@ Berikut adalah parameter yang di harapkan
 | merchant_id | Merchant ID Anda [Lihat Pengaturan Secret Key](https://member.apigames.id/pengaturan/secret-key) | String    | Ya    |
 | produk      | Kode Produk [_Bisa menggunakan prefix custom misalnya **AGML80** untuk produk **ML80**_](#)      | String    | Ya    |
 | tujuan      | Tujuan Pengisian                                                                                 | String    | Ya    |
-| server_id      | Jika produk tidak memilik server_id, maka kosongkan saja                                                                                 | String    | Tidak    |
+| server_id      | Jika produk tidak memilik server_id, maka kosongkan saja           [Lihat Produk](https://member.apigames.id/produk)                                                                       | String    | Tidak    |
 | secret   | Secret Key anda [Lihat Pengaturan Secret Key](https://member.apigames.id/pengaturan/secret-key)      | String    | Ya    |
 ### Contoh
 
