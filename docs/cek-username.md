@@ -27,7 +27,7 @@ Berikut adalah parameter yang di harapkan
 | Parameter   | Deskripsi                                                                                        | Tipe Data | Wajib |
 | ----------- | ------------------------------------------------------------------------------------------------ | --------- | ----- |
 | merchant_id | Merchant ID Anda [Lihat Pengaturan Secret Key](https://member.apigames.id/pengaturan/secret-key) | String    | Ya    |
-| game_code | Kode game yang ingin dicek tersedia **mobilelegend** , **freefire**, **higgs**           | String    | Ya    |
+| game_code | Kode game yang ingin dicek tersedia **mobilelegend** , **freefire**          | String    | Ya    |
 | user_id      | User ID akun yang akan dicek                                                                                 | String    | Ya    |
 | signature  |    Signature Cek akun  dengan formula **md5(merchant_id+secret_key**)                               | String    | Ya    |
 
@@ -66,22 +66,6 @@ https://v1.apigames.id/merchant/YOUR-MERCHANT-ID/cek-username/mobilelegend?user_
         "username": "•CUMAN BISA MM•"
     },
     "ts": 1650529102
-}
-```
-
-## Response Cek Akun Higgs
-
-```json
-{
-    "status": 1,
-    "rc": 0,
-    "message": "Data Username Found",
-    "data": {
-        "is_valid": true,
-        "username": "RMX2180"
-    },
-    "ts": 1650533187
-}"ts": 1650529102
 }
 ```
 
