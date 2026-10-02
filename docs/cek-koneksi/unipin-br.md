@@ -28,7 +28,7 @@ Berikut adalah parameter yang di harapkan
 | Parameter   | Deskripsi                                                                                        | Tipe Data | Wajib |
 | ----------- | ------------------------------------------------------------------------------------------------ | --------- | ----- |
 | merchant_id | Merchant ID Anda [Lihat Pengaturan Secret Key](https://member.apigames.id/pengaturan/secret-key) | String    | Ya    |
-| engine       | Koneksi engine. Misal: smileone, unipin,unipinbr,unipinmy, kiosgamer, higgs         | String    | Ya    |
+| engine       | Koneksi engine. Misal: smileone, unipin,unipinbr,unipinmy, kiosgamer         | String    | Ya    |
 | signature      | Signature Radeem  dengan formula **md5(merchant_id+secret_key**)                                                                                | String    | Ya    |
 
 ### Contoh

@@ -4,7 +4,7 @@ sidebar_position: 4
 
 # Cek Akun Game
 
-Melakukan pengecekan akun game, saat ini tersedia untuk **Free Fire**, **Mobile Legend**, dan **Higgs**
+Melakukan pengecekan akun game, saat ini tersedia untuk **Free Fire** dan **Mobile Legend**
 
 ## Endpoint
 

@@ -28,7 +28,7 @@ Berikut adalah parameter yang di harapkan
 | Parameter   | Deskripsi                                                                                        | Tipe Data | Wajib |
 | ----------- | ------------------------------------------------------------------------------------------------ | --------- | ----- |
 | merchant_id | Merchant ID Anda [Lihat Pengaturan Secret Key](https://member.apigames.id/pengaturan/secret-key) | String    | Ya    |
-| engine       | Koneksi engine. Misal: smileone, kiosgamer, higgs         | String    | Ya    |
+| engine       | Koneksi engine. Misal: smileone, kiosgamer         | String    | Ya    |
 | signature      | Signature Radeem  dengan formula **md5(merchant_id+secret_key**)                                                                                | String    | Ya    |
 
 ### Contoh
@@ -69,6 +69,6 @@ https://v1.apigames.id/merchant/M220122DEWA6374A/cek-koneksi?engine=kiosgamer&si
 {
     "status": 0,
     "rc": 50,
-    "error_msg": "Engine higgsj belum tersedia"
+    "error_msg": "Engine xyz belum tersedia"
 }
 ```
